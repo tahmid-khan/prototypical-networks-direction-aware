@@ -10,8 +10,8 @@ from PIL import Image
 import torch
 from torchvision.transforms import ToTensor
 
-from torchnet.dataset import ListDataset, TransformDataset
-from torchnet.transform import compose
+from torchtnt.dataset import ListDataset, TransformDataset
+from torchtnt.transform import compose
 
 import protonets
 from protonets.data.base import convert_dict, CudaTransform, EpisodicBatchSampler, SequentialBatchSampler
