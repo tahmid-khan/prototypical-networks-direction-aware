@@ -9,7 +9,7 @@ import torch
 import torch.optim as optim
 import torch.optim.lr_scheduler as lr_scheduler 
 import torchvision
-import torchnet as tnt
+import torchtnt as tnt
 
 from protonets.engine import Engine
 
